@@ -1,12 +1,17 @@
 # Description of Nikon camera RAW formats :  NEF and NRW
 
-Version 0.3 (28may2022)
+Version 0.31 (27apr2024)
 
 (this is work in progress)
 
 ## Introduction
 
-Since 1999, some Nikon cameras can create files with RAW data, the first one being D1 with 12 bits compressed NEF files. With D1X, lossy compression was added, and can be considered as "visually lossless". D70 was first non pro camera to offer NEF, but only lossy / compressed. 14 bits NEF were available in 2007 with D3 and D300.
+Since 1999, some Nikon cameras can create files with RAW data, the first one being D1 with 12 bits compressed NEF files. 
+
+With D1X, lossy compression was added, and can be considered as "visually lossless". D70 was first non pro camera to offer NEF, but only lossy / compressed. 14 bits NEF were available in 2007 with D3 and D300.
+
+Z9 and Z8 use new High Efficiency (HE) and High Efficiency* (HE*) compressions which is TinyRaw, and not supported yet by opensource libraw/DNGLab.
+https://onlinemanual.nikonimglib.com/z9/en/psm_raw_recording_94.html
 
 NEF (Nikon Electronic Format) is from high end models, and NRW (Nikon RAW) for Coolpix, starting with P6000. 
 
