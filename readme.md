@@ -18,6 +18,8 @@ https://www.nikonimgsupport.com/eu/BV_article?articleNo=000006125&lang=en_GB
 
 N-RAW (NEV file) 12bits video
 
+## Support from open source projects
+
 | model         | release date | format                                                  | dcraw / libraw support                                                                                                                       |
 | ------------- | ------------ | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | D1            | 06/1999      | **NEF 12bits** uncompressed                             | [1.49, 4apr2002](https://github.com/ncruces/dcraw/commit/0aba10d036cb72768b85ce0da2dcfc5f77f6e183)                                           |
@@ -111,7 +113,7 @@ with D4s (2014)
 
 - RAW size 'S', DPReview, D810, may 2016, https://www.dpreview.com/reviews/nikon-d810/4
 
-D3
+### D3
 ```
 uncompressed
 
@@ -132,7 +134,7 @@ uncompressed
   | |     - Tag 0x0103 (2 bytes, int16u[1]):
   | |        2be9a: 00 01  
 ```
-D810
+### D810
 ```
 Nikon NEF Compressed
 
@@ -182,7 +184,7 @@ lossy type 1
   | | | 34) NEFCompression = **1**
   | | |     - Tag 0x0093 (2 bytes, int16u[1])
 ```
-D5
+### D5
 ```
   | | | 16) SerialNumber = 3000234
   | | |     - Tag 0x001d (8 bytes, string[8]):
@@ -202,7 +204,7 @@ D5
   | | |     - Tag 0x00a7 (4 bytes, int32u[1]):
   | | |         3730: c2 3a 00 00                                     [.:..]
 ```
-Z50
+### Z50
 ```
   | + [SubIFD1 directory with 19 entries]
   | | 0)  SubfileType = 0
